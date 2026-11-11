@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+}
+
+article {
+    display: block;
+}
+
+.price-card {
+    width: 320px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #d9deea;
+    box-shadow: 0 6px 20px rgb(31 92 180 / 12%);
+}
+
+.price-card-title {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.price-card-info {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+li:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.price-card-btn {
+    display: block;
+    margin: 0 auto;
+    padding-top: 16px;
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1d3557;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.price-card-btn:hover {
+    background-color: #e63946;
+}
