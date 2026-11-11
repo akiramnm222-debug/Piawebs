@@ -1,0 +1,81 @@
+* {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+body {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.headers {
+    margin: 40px auto 20px;
+    
+}
+
+.headers h1 {
+    margin: 20px auto;
+}
+
+body header h1 {
+    color: aqua;
+}
+body header p {
+    font-style: italic;
+}
+
+.headers p {
+    font-size: 20px;
+}
+
+ul > li {
+    padding: 10px 10px;
+}
+
+ul > li:nth-child(odd) {
+    background: gray;
+}
+
+ul > li:nth-child(even) {
+    background: lightgrey;
+}
+
+ul > li > a {
+    color: black;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+ul > li.marked {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+ul > li.marked ::before {
+    content: "★";
+}
+
+body main p {
+    margin-left: 20px;
+}
+
+main p a {
+    text-decoration: underline;
+}
+
+main form label {
+    display: none;
+}
+
+main form {
+    margin-left: 20px;
+}
+
+main form input {
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+a[href^="https"]::after {
+    content: " ↗";
+}
